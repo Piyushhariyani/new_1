@@ -1,0 +1,31 @@
+{
+    "service-health": {
+        "command": "uv",
+        "args": [
+            "run",
+            "python",
+            "-m",
+            "servers.service_health_server"
+        ]
+    },
+
+    "support-ticket": {
+        "command": "uv",
+        "args": [
+            "run",
+            "python",
+            "-m",
+            "servers.support_ticket_server"
+        ]
+    },
+
+    "change-management": {
+        "command": "uv",
+        "args": [
+            "run",
+            "python",
+            "-m",
+            "servers.change_management_server"
+        ]
+    }
+}
